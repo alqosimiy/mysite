@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+[class*="_container"] {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+hr {
+    margin: 10px;
+}
+
+i {
+    padding: 5px;
+}
+
+html {
+
+}
+
+body {
+    background-color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.home_page_header {
+    background-color: mediumseagreen;
+}
+
+.home_page_menu {
+    background-color: rgba(128, 128, 128, 0.541);
+}
+
+.home_page_menu a, .home_page_footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.top_menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    height: 30px;
+}
+
+.user_reg {
+    
+}
+
+.head_title_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title_ar h1 {
+    font-family: 'Amiri', serif;
+    text-align: center;
+}
+
+.home_page_main {
+    
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.home_page_footer {
+    background-color: mediumseagreen;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    color: white;
+    font-weight: bold;
+    height: 150px;
+    padding: 5px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 5px;
+}
+
+.footer_contacts {
+    
+}
+.messenger {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
